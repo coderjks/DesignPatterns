@@ -1,0 +1,2 @@
+Logger is a great example.
+Ex: ATM/Vending Machine

@@ -1,0 +1,2 @@
+Always use whenever the code base has inheritance and the different children are using same functionality which can't be made common in the base class.
+For ex: DriveStrategy, PaymentProcessor of Payment Gateway for E-Commerce website.

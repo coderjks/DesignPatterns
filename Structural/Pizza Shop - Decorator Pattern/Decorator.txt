@@ -1,0 +1,2 @@
+Pizza Shop is a very good example for understanding.
+Applies everytime whenever there is both is_a and has_a relationship.
