@@ -1,0 +1,6 @@
+This pattern is useful when a class has large no of optional properties/attributes. In order to create objects of
+such class, we can create a builder object which has similar attributes and setter methods.
+All the setter methods will return builder type object only.
+
+In order to build the target object, we have Director object which contains the builder object. It is responsibility of
+the director to

@@ -1,0 +1,4 @@
+This pattern is used in cases where the two interacting classed are incompatible to communicate with each other.
+Adapter obj helps to eliminate or mitigate this problem by providing the API(s) compatible to both client and
+requested object.
+Adapter has an adaptee interface object.

@@ -1,0 +1,4 @@
+Used whenever we have to hide the system complexity from the client.
+It is responsibility of facade to create object(s) of requested classes.
+Facade can use other facades also.
+Facade hides the complexity where as adapter brings the compatibility between client & original interface.

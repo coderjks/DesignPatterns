@@ -1,4 +1,3 @@
-from drive_strategy import OffRoadDriveStrategy, SportsDriveStrategy, NormalDriveStrategy
 from vehicle import OffRoadVehicle, NormalVehicle, SportsVehicle
 
 if __name__ == "__main__":
