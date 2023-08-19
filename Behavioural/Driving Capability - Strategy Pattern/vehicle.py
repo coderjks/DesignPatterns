@@ -9,6 +9,9 @@ class Vehicle:
     def drive(self):
         self.drive_strategy.drive()
 
+    def set_strategy(self, new_strategy):
+        self.drive_strategy = new_strategy
+
 
 class SportsVehicle(Vehicle):
     def __init__(self):

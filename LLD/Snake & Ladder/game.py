@@ -38,6 +38,7 @@ class Game:
             cell = self.board.get_cell(new_position)
 
             if cell.snake_ladder and cell.snake_ladder.start == new_position:
+                print('{0} found'.format('Snake' if cell.snake_ladder.end < new_position else 'Ladder'))
                 new_position = cell.snake_ladder.end
         return new_position
 

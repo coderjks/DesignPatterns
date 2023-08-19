@@ -1,6 +1,6 @@
 In this pattern, the client does not directly talk to the real object. Instead, the request goes
 through some intermediate layer called proxy. Common uses: Cache, Load Balancer, Pre-Post Processing,
 Firewall (Access Restriction)
-Proxy is for a particular object that is it has the same base class as the real object.
+Proxy is for a particular object i.e, it has the same base class as the real object.
 
 Proxy object has real concrete class obj.
