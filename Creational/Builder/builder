@@ -3,4 +3,4 @@ such class, we can create a builder object which has similar attributes and sett
 All the setter methods will return builder type object only.
 
 In order to build the target object, we have Director object which contains the builder object. It is responsibility of
-the director to
+the director to direct the creation of concrete object using builder class object.
