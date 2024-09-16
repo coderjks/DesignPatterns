@@ -1,0 +1,3 @@
+Allows objects to communicate via mediator object.
+It brings loose coupling by don't allowing objects to explicitly call each other.
+Example: Airline Management System, Online-Auction, Chat-Application
